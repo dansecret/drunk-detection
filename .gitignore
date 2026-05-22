@@ -1,0 +1,30 @@
+# === Ultralytics / YOLO Model Weights ===
+*.pt
+*.onnx
+*.engine
+
+# === Python Sampah / Cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Docker Cache ===
+.dockerignore
+
+# === OS Sampah (Khusus Linux/Mac) ===
+.DS_Store
+Thumsh.db
+*.log
+
+# === Hasil Eksperimen / Video Input-Output Local ===
+*.mp4
+*.avi
+*.mkv
+runs/
